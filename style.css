@@ -1,0 +1,39 @@
+.container {
+    background:#dfdfdf;
+    width:400px;
+}
+.box-handle, .static {
+    text-align:center;
+    font-size:9px;
+    line-height:100px;
+    width:100px;
+    height:100px;
+    background:#efefef;
+    border:1px solid #bfbfbf;
+}
+.box-line {
+    position:absolute;
+    top:50px; 
+    left:110px;
+    z-index:0;
+}
+.box-handle {
+    z-index:1000;
+    cursor:move;
+}
+.arrow {
+    display:none;
+    position:absolute;
+    width:10px;
+    height:10px;
+    background:red;
+}
+.new-rect {
+    border: 1px solid #bfbfbf;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+}
+.new-box{
+    margin: 20px;
+        }
